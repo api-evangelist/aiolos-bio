@@ -1,0 +1,59 @@
+generated: '2026-09-14'
+method: probed
+source: >-
+  Direct HTTP probes of the five canonical /.well-known/ discovery documents against every host
+  this record knows — the registrable domain aiolosbio.com and its www host. There is no API
+  baseURL, no OpenAPI servers[] host and no docs/console host to probe: Aiolos Bio publishes no
+  API, and api/docs/developer/developers/portal/app subdomains of aiolosbio.com are all NXDOMAIN.
+note: >-
+  Every probed path returned HTTP 301 to https://www.gsk.com/ — a blanket, non-path-preserving
+  redirect installed after GSK completed its acquisition of Aiolos Bio on 2024-02-14. No path
+  returned a 200 and no discovery document was served, so no WellKnown or SecurityTxt pointer is
+  emitted in apis.yml. This file records a verified absence, not a presence.
+hosts:
+- host: aiolosbio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 301
+    file: null
+  - path: /.well-known/agent.json
+    status: 301
+    file: null
+- host: www.aiolosbio.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 301
+    file: null
+  - path: /.well-known/agent.json
+    status: 301
+    file: null

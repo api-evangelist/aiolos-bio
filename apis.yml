@@ -1,10 +1,21 @@
 aid: aiolos-bio
 name: Aiolos Bio
-description: 'Aiolos Bio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Aiolos Bio was a clinical-stage biopharmaceutical company founded in 2023 with offices in San
+  Francisco, California and London, United Kingdom, developing treatments for respiratory and
+  inflammatory disease. Its sole disclosed asset was AIO-001, a half-life-extended monoclonal
+  antibody against thymic stromal lymphopoietin (TSLP), positioned as a Phase 2-ready candidate
+  for moderate-to-severe asthma with potential six-month dosing intervals. The company launched
+  in October 2023 with an oversubscribed $245 million Series A co-led by Atlas Venture, Bain
+  Capital Life Sciences, Forbion and Sofinnova Investments, with RA Capital Management. GSK plc
+  agreed to acquire it on 9 January 2024 for $1 billion upfront plus up to $400 million in
+  milestones, completing on 14 February 2024. Aiolos Bio is a drug developer, not a software
+  vendor: it never ran a developer program, public API, SDK or machine-readable contract, and
+  aiolosbio.com now serves a blanket HTTP 301 to www.gsk.com on every path.
 url: https://raw.githubusercontent.com/api-evangelist/aiolos-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+x-source-url: https://forgeglobal.com/aiolos-bio_stock/
 x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.20'
@@ -12,6 +23,16 @@ created: '2026-09-14'
 modified: '2026-09-14'
 tags:
 - Company
+- Biotechnology
+- Biopharmaceutical
+- Pharmaceuticals
+- Drug Development
+- Clinical Trials
+- Respiratory
+- Immunology
+- Monoclonal Antibodies
+- Life Sciences
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +41,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://aiolosbio.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aiolos-bio
+- type: SecondaryMarket
   url: https://forgeglobal.com/aiolos-bio_stock/
+- type: DomainSecurity
+  url: security/aiolos-bio-domain-security.yml
+x-enrichment:
+  date: '2026-09-14'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    Aiolos Bio was a clinical-stage asthma-antibody developer that ceased to exist as an
+    independent company when GSK completed its acquisition on 2024-02-14, and its domain
+    aiolosbio.com now answers every path — including /.well-known/security.txt, /openapi.json and
+    /llms.txt — with a blanket HTTP 301 to https://www.gsk.com/, while api., docs., developer. and
+    portal.aiolosbio.com are all NXDOMAIN, so there is no surviving host, developer program or
+    contract to profile.
+  evidence:
+  - url: https://aiolosbio.com/.well-known/security.txt
+    status: 301
+  - url: https://aiolosbio.com/openapi.json
+    status: 301
+  - url: https://www.gsk.com/en-gb/media/press-releases/gsk-completes-acquisition-of-aiolos-bio/
+    status: 200
+  - url: https://forgeglobal.com/aiolos-bio_stock/
+    status: 403
+  checked: '2026-09-14'
