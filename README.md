@@ -64,5 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Aiolos Bio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/aiolos-bio_stock/
+Aiolos Bio was a clinical-stage biopharmaceutical company founded in 2023 with offices in San Francisco, California and London, United Kingdom, developing treatments for respiratory and inflammatory disease. Its sole disclosed asset was AIO-001, a half-life-extended monoclonal antibody against thymic stromal lymphopoietin (TSLP), positioned as a Phase 2-ready candidate for moderate-to-severe asthma with potential six-month dosing intervals. The company launched in October 2023 with an oversubscribed $245 million Series A co-led by Atlas Venture, Bain Capital Life Sciences, Forbion and Sofinnova Investments, with RA Capital Management. GSK plc agreed to acquire it on 9 January 2024 for $1 billion upfront plus up to $400 million in milestones, completing on 14 February 2024. Aiolos Bio is a drug developer, not a software vendor: it never ran a developer program, public API, SDK or machine-readable contract, and aiolosbio.com now serves a blanket HTTP 301 to www.gsk.com on every path.
+
+**Areas:** Company · Biotechnology · Biopharmaceutical · Pharmaceuticals · Drug Development · Clinical Trials · Respiratory · Immunology · Monoclonal Antibodies · Life Sciences · Acquired
+
+## Aiolos Bio on APIs.io
+
+Everything profiled for Aiolos Bio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aiolos-bio/](https://apis.io/providers/aiolos-bio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aiolos Bio Domain Security](https://apis.io/security/aiolos-bio/aiolos-bio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aiolosbio.com/)
+- [Blog](https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/engineering/)
+
+## API Evangelist rating
+
+**Kin Score 3.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aiolos-bio/](https://apis.io/providers/aiolos-bio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aiolos Bio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aiolos-bio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
